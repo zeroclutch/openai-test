@@ -28,3 +28,7 @@ To test, use
 ```bash
 functions_framework --target=handler
 ```
+
+When testing, you need to make a POST request with the content you want to http://localhost:8080.
+
+[Here's how you make a POST request in Postman](https://stackoverflow.com/a/29365126). Instead of putting in JSON, put in the string you want to use.
